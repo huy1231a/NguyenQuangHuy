@@ -1,0 +1,36 @@
+.form .form_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .form .form_input .form_input_right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    height: 20px;
+  }
+  
+  ::placeholder {
+    color: gray;
+  }
+  
+  span {
+    text-align: start;
+  }
+  
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

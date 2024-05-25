@@ -1,0 +1,30 @@
+select {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 40px;
+}
+
+option {
+  display: flex;
+  align-items: center;
+}
+
+option img {
+  margin-right: 5px;
+}
+
+.data {
+  display: flex;
+  gap: 20px;
+}
+
+.currency-select {
+  display: flex;
+  align-items: center;
+}
+
+.currency-flag {
+  width: 20px;
+  margin-right: 8px;
+}
